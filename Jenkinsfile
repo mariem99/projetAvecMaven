@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('Récupération du code de la branche') {
             steps {
-                git branch: 'master',
-                url: 'https://github.com/youssefklila/timesheet-devops.git'
+                git branch: 'main',
+                url: 'https://github.com/mariem99/projetAvecMaven.git'
             }
         }
    
